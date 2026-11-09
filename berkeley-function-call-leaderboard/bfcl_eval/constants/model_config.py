@@ -2227,6 +2227,19 @@ third_party_inference_model_map = {
         is_fc_model=True,
         underscore_to_dot=True,
     ),
+    # 自定义百炼模型
+    "qwen3.8-flash-FC" : ModelConfig(
+        model_name="qwen3.8-flash",
+        display_name="Qwen3.8-Flash (FC)",
+        url="https://bailian.console.aliyun.com/",
+        org="Qwen",
+        license="Unknown",
+        model_handler=OpenAICompletionsHandler,
+        input_price=None,
+        output_price=None,
+        is_fc_model=True,
+        underscore_to_dot=True,
+)  ,    
 }
 
 
